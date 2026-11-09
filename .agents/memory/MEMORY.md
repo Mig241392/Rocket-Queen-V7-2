@@ -1,0 +1,1 @@
+- [OpenMP libraries with LightGBM](openmp-lightgbm.md) — if LightGBM cannot load libgomp, install GCC and preload its reported library before import.

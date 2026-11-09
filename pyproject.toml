@@ -1,0 +1,18 @@
+[project]
+name = "rocket-queen-v7"
+version = "7.0.0"
+description = "Rocket Queen V7 Telegram bot for Lucky Jet analysis"
+requires-python = ">=3.13"
+dependencies = [
+    "flask>=3.1.3",
+    "lightgbm>=4.7.0",
+    "numpy>=2.5.4",
+    "pillow>=13.0.0",
+    "pytelegrambotapi>=4.37.1",
+    "pytesseract>=0.3.13",
+    "scikit-learn>=1.9.1",
+    "xgboost>=3.4.1",
+]
+
+[tool.uv]
+package = false
